@@ -34,7 +34,7 @@
     <div style="text-align: center;">
       <img src="img/tabla.png"/>
     </div>
-
+ 
 ## 3. Sistemas gestores de Bases de Datos (SGBD).
 - Es una herramienta software, más o menos compleja, que permite la creación y gestión de una Base de Datos.
 - El SGBD es la herramienta que se encarga de organizar los datos, manteniendo la información siempre accesible para el usuario de la forma más eficientes posible, tanto en espacio como en velocidad de acceso.
