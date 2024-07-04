@@ -129,6 +129,7 @@
     El mecanismo formal para representar y manipular información de manera general y sistemática dentro de una base de datos.
 
 ---
+
 ### Existen varios tipo de Modelos de Base de datos:
 #### <u>Modelo jerárquico</u>
 - Son BD que, como su propio nombre indica, almacena la información en una estructura jerarquizada.
