@@ -395,5 +395,4 @@ Existen varios tipos de bases de datos NoSQL, cada uno diseñado para diferentes
 - **Cassandra:** Base de datos de columnas, ideal para manejar grandes volúmenes de datos distribuidos.
 - **Neo4j:** Base de datos de grafos, utilizada para aplicaciones que requieren modelado de relaciones complejas.
 
----
 
