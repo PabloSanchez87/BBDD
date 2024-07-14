@@ -74,5 +74,11 @@ SELECT * FROM country;
 SELECT Name,  IndepYear FROM country;
 	-- a. En esta consulta debemos visualizar: el nombre del país, el año de la independencia y el número de años transcurridos.
 	-- b. El nombre de la columna en la que hagamos el cálculo deberá llamarse “Años_Transcurridos”
-8. Visualizar los continentes sin que aparezcan repetidos.
-9. Visualizar los 5 primeros países.
+    SELECT Name AS Nombre, 
+		IndepYear AS "Año_Independencia", 
+        (2024 - IndepYear) AS "Años_transcurridos" 
+	FROM country;
+-- 8. Visualizar los continentes sin que aparezcan repetidos.
+SELECT DISTINCT Continent From country;
+-- 9. Visualizar los 5 primeros países.
+SELECT Name From country LIMIT 5;
