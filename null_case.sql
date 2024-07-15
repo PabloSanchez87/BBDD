@@ -28,7 +28,7 @@ SELECT Continent,
         WHEN 'South America' then 'Continente Americano'
         ELSE 'Continente desconcido'
 	END AS 'Continente en español'
-from world.country;
+		from world.country;
 
 /*
 CASE valor
@@ -45,7 +45,7 @@ SELECT Name, region, population,
         WHEN population > 50000 THEN 'Pequeño'
         ELSE 'Muy pequeño'
 	END AS 'Tamaño población'
-FROM  world.country;
+		FROM  world.country;
 	
 
 /*
@@ -105,4 +105,4 @@ SELECT rental_id, amount,
         when amount >= 4.99 then 'Caro'
         else 'Otros valores'
 	end as 'Precio'
-    FROM sakila.payment;
+		FROM sakila.payment;
