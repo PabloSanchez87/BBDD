@@ -36,15 +36,6 @@ SELECT * FROM world.country WHERE BINARY Continent = "ASIA";
 -- Los datos pueden tener errores, como espacios al principio al final o al principio que te pueden entorpecer las búsquedas.
 SELECT * FROM world.country WHERE BINARY Continent = "Asia ";
 
-/*
-Tipos de datos en MySQL
-1. Tipos de Cadena
-2. Tipos Numéricos
-3. Tipos de Fecha y Hora
-4. Tipos Espaciales
-5. JSON
-*/
-
 /* Ejericicios
 1. Descargar la base de datos ‘sakila’ e instalarla en MySQL Workbench.
 2. Seleccionar los campos ‘address’ y ‘district’ de la tabla ‘address’ donde el
@@ -95,11 +86,23 @@ select first_name,last_name,active from sakila.customer
     -- En esta primera query, el resultado deberían ser todos los clientes de la tabla customer con active = 1
 select first_name,last_name,active from sakila.customer 
 	where !active;
-
 /*
 !active --> FALSE
  active --> TRUE
 */
+
+/*
+Tipos de datos en MySQL
+1. Tipos de Cadena
+2. Tipos Numéricos
+3. Tipos de Fecha y Hora
+4. Tipos Espaciales
+5. JSON
+*/
+
+
+
+
 
 
 
