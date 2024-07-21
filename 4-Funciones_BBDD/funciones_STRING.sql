@@ -2,6 +2,9 @@
 FUNCIONES TIPO STRING
 Estas funciones nos permieten trabajar con cadenas de caracteres
 
+Documentación
+https://dev.mysql.com/doc/refman/8.4/en/string-functions.html
+
 Funcion      			Descripcion
 UPPER					Convierte un string a mayúsuclas
 LOWER 					Convierte un string a minúsculas
@@ -34,9 +37,9 @@ SELECT RTRIM("CONQUER BLOCKS                                         ");
 
 SELECT LENGTH("      CONQUER BLOCKS                             ");
 SELECT LENGTH(RTRIM(LTRIM("      CONQUER BLOCKS                             ")));
+
 -- LOCATE 
 SELECT LOCATE("BLOCKS", "CONQUER BLOCKS");
-
 SELECT NAME FROM WORLD.COUNTRY WHERE LOCATE('KONG', NAME) != 0;
 
 -- SUBSTR
